@@ -1,0 +1,329 @@
+@import "https://fonts.googleapis.com/css2?family=Baloo+2&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Baloo+2&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #ffffff;
+
+}
+
+header
+{
+   height: 60px;
+   display:flex;
+   background-color: #0b1312;
+   color: #FFFFFF;
+   padding: 18px 50px;
+   
+}
+
+
+
+.nav-link
+{
+display:flex;
+width: 100%;
+height: 70px;
+
+}
+
+.nav-link h1
+{
+   margin-left: 800px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.icon
+{
+    display: flex;
+    margin: 0 0 0 auto; 
+}
+
+.fa
+{
+    margin-right: 15px;
+    
+}
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+.front-page
+{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+
+.row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    margin: 0px;
+
+}
+
+.fashion
+{
+    width: 100%;
+    height: 100%;
+}
+
+.image
+{
+    width: 33%;
+    
+    background-color: rgb(20, 20, 20);
+}
+
+.shop-now
+{
+    width: 67%;
+   color: #041822;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.content
+{
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: 140px  ;
+    
+}
+
+
+.content h1
+{
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.content p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.button 
+{
+    width: 125px;
+    height: 40px;
+    background-color: #040C14;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+   
+}
+
+
+
+.button:hover 
+{
+background-color: white;
+border-style: solid;
+color: #040C14;
+transform: scale(20px);
+}
+
+
+
+.second
+{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(8, 8, 8);
+}
+
+@media screen and 
+   (max-width: 500px) 
+{
+header
+{
+    width: 100%;
+}
+
+.nav-link h1
+{
+   margin: auto 100px auto 0;
+}
+
+
+.row
+{
+    display: block;
+}
+
+.image{
+    width: 100%;
+    height: 700px;
+}
+
+.shop-now
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.content
+{
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.content h1
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.content p{
+    font-size: 15px;
+    margin-bottom: 40px;
+    
+}
+.second
+{
+    margin-top: 50px;
+}
+
+}
+
+
+.row2
+{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr;
+    grid-gap: 40px
+    
+    
+}
+
+
+.small-pic
+{
+    
+    padding: 10px;
+   
+}
+
+.big-pic
+{
+    
+    padding: 10px;
+}
+
+.white
+{
+    width: 234px;
+margin-top:500px;
+}
+
+.dress
+{
+    margin-top: 250px;
+    width: 400px;
+}
+
+
+
+.arrival
+{
+    margin: 580px 10px 10px 50px;
+    padding: 20px;
+}
+
+.arrival h6
+{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+   text-decoration: none;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+.arrival h2
+{
+   font-size: 0.9in;
+   color: #ffffff;
+   margin-bottom: 20px;
+}
+
+.discrb
+{
+    width: 70%;
+   
+    
+}
+ .arrival p
+ {
+     font-size: x-large;
+     color: #ffffff;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+     
+ }
+
+
+ @media screen and (max-width: 500px)
+ {
+
+.second
+{
+    height: 600px;
+}
+.row2
+{
+    display: block;
+}
+
+.arrival
+{
+    margin: 100px 5px 5px;
+}
+
+.discrb
+{
+    width: 90%;
+   
+    
+}
+.discrb p
+ {
+     font-size: large;
+     color: #e7c6c6;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     
+ }
+
+.white, .big-pic
+{
+display: none;
+}
+ }
